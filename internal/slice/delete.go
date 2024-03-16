@@ -1,6 +1,6 @@
 package slice
 
-import "generalization_tool/internal/errs"
+import "github.com/L0slaker/GeneralizationTool/internal/errs"
 
 // Delete 区别于切片中的Delete方法，多返回了删除的参数
 func Delete[T any](src []T, index int) ([]T, T, error) {

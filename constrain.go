@@ -1,4 +1,4 @@
-package generalization_tool
+package GeneralizationTool
 
 // RealNumber 实数
 type RealNumber interface {

@@ -1,4 +1,4 @@
-package generalization_tool
+package GeneralizationTool
 
 // Comparator 用于比较两个对象的大小
 type Comparator[T any] func(src T, dst T) int

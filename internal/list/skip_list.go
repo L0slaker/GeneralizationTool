@@ -1,7 +1,7 @@
 package list
 
 import (
-	"generalization_tool"
+	gt "github.com/L0slaker/GeneralizationTool"
 	"math/rand"
 )
 
@@ -10,13 +10,13 @@ const (
 	pFactor  = 0.5
 )
 
-type node[K generalization_tool.RealNumber, V any] struct {
+type node[K gt.RealNumber, V any] struct {
 	nexts []*node[K, V]
 	key   K
 	value V
 }
 
-type SkipList[K generalization_tool.RealNumber, V any] struct {
+type SkipList[K gt.RealNumber, V any] struct {
 	head   *node[K, V]
 	level  int
 	length int

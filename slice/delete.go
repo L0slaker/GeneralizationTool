@@ -1,8 +1,8 @@
 package slice
 
 import (
-	"generalization_tool/internal/errs"
-	"generalization_tool/internal/slice"
+	"github.com/L0slaker/GeneralizationTool/internal/errs"
+	"github.com/L0slaker/GeneralizationTool/internal/slice"
 )
 
 // Delete 删除 index 处的元素
