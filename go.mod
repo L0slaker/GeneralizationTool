@@ -1,4 +1,4 @@
-module generalization_tool
+module github.com/L0slaker/GeneralizationTool
 
 go 1.19
 
